@@ -1,0 +1,81 @@
+body{
+	/*background: #f60018;*/
+	/*background: #F51E7B;*/
+	/*background: #2808B4;*/
+	background: #232b2b;
+}
+/*colours:
+	orange-reddish = #DC3D24
+	dark-grey = #232b2b
+	light green = #00ff80
+*/
+#garamond{
+	font-family: 'Garamond';
+	font-size: 330%;
+	color: #DC3D24;
+	font-weight: 700;
+	border-bottom: 10px solid white;
+}
+
+.rules{
+	margin-top: 5%;
+	font-family: 'Times New Roman';
+	font-size: 200%;
+	color: #DC3D24;
+}
+
+ul{
+	color: #DC3D24;
+	font-family: 'Times New Roman';
+	font-size: 200%;
+}
+
+#count_num{
+	color: white;
+	margin: 23% auto;
+	text-align: center;
+	font-size: 700%;
+}
+
+#leftimage{
+	margin: -5% 0 0 0;
+}
+#centerimage{
+	margin: -30% 10% 0 15%;
+}
+#rightimage{
+	margin: -5% 0 0 5%;
+}
+
+.keys{
+	position: relative;
+	left: 39%;
+	-webkit-box-shadow: 0px 9px 0px #aaaaaa;
+        -moz-box-shadow: 0px 9px 0px #aaaaaa;
+        box-shadow: 0px 9px 0px #aaaaaa;
+}
+
+.keys:active{
+    -webkit-box-shadow: 0px 2px 0px #aaaaaa;
+    -moz-box-shadow: 0px 2px 0px #aaaaaa;
+    box-shadow: 0px 2px 0px #aaaaaa;
+	top: 3px;
+}
+
+#upkey{
+	top: -70px;
+}
+#upkey:active{
+	top: -73px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 2%;
+	left: 38%; 
+	font-size: 130%;
+	color: white;
+}
+.aftercount{
+	margin: 20% auto 0 auto;
+}

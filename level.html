@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+      <title>Pick The Odd Image Out</title>
+      
+      <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="bootstrap-extension.css"> 
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body ng-app  ng-controller="ImagesController" ng-keyup="myFunct($event)">
+     
+    <div class="container">
+      <h1 id="count_num"></h1>
+     
+      <div class="aftercount">        
+        <img id="leftimage" ng-src="{{imags[count].image1}}">
+        <img id="centerimage"  ng-src="{{imags[count].image2}}">
+        <img id="rightimage"  ng-src="{{imags[count].image3}}">
+
+        <img src="images/arrowkeys/left.jpg" class="keys" id="leftkey">
+        <img src="images/arrowkeys/up.jpg" class="keys" id="upkey">
+        <img src="images/arrowkeys/right.jpg" class="keys" id="rightkey">
+      </div>
+      
+        <p class="footer"><em>Pick the odd image out by Nakul Pathak &copy</em></p>
+    </div>
+    
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+    <script src="script.js"></script>
+    <script src="images.js"></script>
+    
+  </body>
+</html>
